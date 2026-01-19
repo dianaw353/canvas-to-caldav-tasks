@@ -4,11 +4,10 @@ I created this tool to I can sync important calendar events and sync assignments
 
 ## Instructions
 
-1. Set up the python virtual environment and install python dependencies 
+1. Install system dependencies
+
 ```
-  python -m venv venv
-  source venv/bin/activate
-  pip install -r requirements.txt
+  pacman -S uv
 ```
 
 2. Edit the config.toml file
@@ -16,5 +15,5 @@ I created this tool to I can sync important calendar events and sync assignments
 3. Run the script
 
 ```
-  python canvas_sync.py
+  uv canvas_sync.py
 ```
